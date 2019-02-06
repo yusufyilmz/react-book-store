@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP COMPONENT snapchat correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <BookList>
+        <Connect(BookContainer)
+          operation="list"
+        >
+          <BookContainer
+            books={
+              Array [
+                Object {
+                  "genre": Object {
+                    "name": "comedy",
+                  },
+                  "id": 1,
+                  "name": "book 1",
+                  "price": 1,
+                },
+              ]
+            }
+            createBook={[Function]}
+            deleteBook={[Function]}
+            editBook={[Function]}
+            error={false}
+            fetchBooks={[Function]}
+            fetchGenres={[Function]}
+            genres={Array []}
+            getBook={[Function]}
+            loading={false}
+            operation="list"
+          >
+            <ForwardRef(Bootstrap(Container))>
+              <Container
+                as="div"
+                bsPrefix="container"
+                fluid={false}
+              >
+                <div
+                  className="container"
+                >
+                  <LinkButton
+                    path="/books/create"
+                    title="Create new book"
+                  >
+                    <Link
+                      replace={false}
+                      to="/books/create"
+                    >
+                      <a
+                        href="/books/create"
+                        onClick={[Function]}
+                      >
+                        <Styled(Component)
+                          type="button"
+                          variant="primary"
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-gzVnrw",
+                                  "isStatic": false,
+                                  "lastClassName": "eRgJow",
+                                  "rules": Array [
+                                    "
+    margin-left: ",
+                                    [Function],
+                                    "px;
+    margin-bottom: ",
+                                    [Function],
+                                    "px;
+    width: ",
+                                    [Function],
+                                    "px;
+",
+                                  ],
+                                },
+                                "defaultProps": undefined,
+                                "displayName": "Styled(Component)",
+                                "foldedComponentIds": Array [],
+                                "propTypes": undefined,
+                                "render": [Function],
+                                "styledComponentId": "sc-gzVnrw",
+                                "target": Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "defaultProps": undefined,
+                                  "propTypes": undefined,
+                                  "render": [Function],
+                                },
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            type="button"
+                            variant="primary"
+                          >
+                            <ForwardRef(Bootstrap(Button))
+                              className="sc-gzVnrw gOZowS"
+                              type="button"
+                              variant="primary"
+                            >
+                              <Button
+                                active={false}
+                                bsPrefix="btn"
+                                className="sc-gzVnrw gOZowS"
+                                disabled={false}
+                                innerRef={null}
+                                type="button"
+                                variant="primary"
+                              >
+                                <button
+                                  className="sc-gzVnrw gOZowS btn btn-primary"
+                                  disabled={false}
+                                  type="button"
+                                >
+                                  Create new book
+                                </button>
+                              </Button>
+                            </ForwardRef(Bootstrap(Button))>
+                          </StyledComponent>
+                        </Styled(Component)>
+                      </a>
+                    </Link>
+                  </LinkButton>
+                  <ForwardRef(Bootstrap(Row))>
+                    <Row
+                      as="div"
+                      bsPrefix="row"
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <BookCard
+                          item={
+                            Object {
+                              "genre": Object {
+                                "name": "comedy",
+                              },
+                              "id": 1,
+                              "name": "book 1",
+                              "price": 1,
+                            }
+                          }
+                          key="book1"
+                        >
+                          <ForwardRef(Bootstrap(Col))
+                            md={4}
+                          >
+                            <Col
+                              as="div"
+                              bsPrefix="col"
+                              md={4}
+                            >
+                              <div
+                                className="col-md-4"
+                              >
+                                <CardWrapper>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "Body": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Footer": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Header": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Img": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "ImgOverlay": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Link": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Subtitle": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Text": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "Title": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "sc-bdVaJa",
+                                          "isStatic": true,
+                                          "lastClassName": "eQveFw",
+                                          "rules": Array [
+                                            "
+    margin: 20px 0;
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    border: 4px solid #004990!important;
+",
+                                          ],
+                                        },
+                                        "defaultProps": undefined,
+                                        "displayName": "CardWrapper",
+                                        "foldedComponentIds": Array [],
+                                        "propTypes": undefined,
+                                        "render": [Function],
+                                        "styledComponentId": "sc-bdVaJa",
+                                        "target": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "Body": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Footer": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Header": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Img": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "ImgOverlay": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Link": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Subtitle": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Text": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "Title": Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": undefined,
+                                            "propTypes": undefined,
+                                            "render": [Function],
+                                          },
+                                          "defaultProps": undefined,
+                                          "propTypes": undefined,
+                                          "render": [Function],
+                                        },
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <ForwardRef(Bootstrap(Card))
+                                      className="sc-bdVaJa eQveFw"
+                                    >
+                                      <Card
+                                        as="div"
+                                        body={false}
+                                        bsPrefix="card"
+                                        className="sc-bdVaJa eQveFw"
+                                      >
+                                        <div
+                                          className="sc-bdVaJa eQveFw card"
+                                        >
+                                          <Styled(Component)>
+                                            <StyledComponent
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-htpNat",
+                                                    "isStatic": true,
+                                                    "lastClassName": "fMgUYa",
+                                                    "rules": Array [
+                                                      "
+    font-size: 1.5em!important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+",
+                                                    ],
+                                                  },
+                                                  "defaultProps": undefined,
+                                                  "displayName": "Styled(Component)",
+                                                  "foldedComponentIds": Array [],
+                                                  "propTypes": undefined,
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-htpNat",
+                                                  "target": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "defaultProps": undefined,
+                                                    "propTypes": undefined,
+                                                    "render": [Function],
+                                                  },
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
+                                                }
+                                              }
+                                              forwardedRef={null}
+                                            >
+                                              <ForwardRef(Bootstrap(CardTitle))
+                                                className="sc-htpNat fMgUYa"
+                                              >
+                                                <CardTitle
+                                                  bsPrefix="card-title"
+                                                  className="sc-htpNat fMgUYa"
+                                                >
+                                                  <ForwardRef
+                                                    className="sc-htpNat fMgUYa card-title"
+                                                  >
+                                                    <div
+                                                      className="sc-htpNat fMgUYa card-title h5"
+                                                    >
+                                                      book 1
+                                                    </div>
+                                                  </ForwardRef>
+                                                </CardTitle>
+                                              </ForwardRef(Bootstrap(CardTitle))>
+                                            </StyledComponent>
+                                          </Styled(Component)>
+                                          <ForwardRef(Bootstrap(CardBody))>
+                                            <CardBody
+                                              bsPrefix="card-body"
+                                            >
+                                              <div
+                                                className="card-body"
+                                              >
+                                                <BookParagraphWrapper>
+                                                  <StyledComponent
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-bxivhb",
+                                                          "isStatic": true,
+                                                          "lastClassName": "bYlnnj",
+                                                          "rules": Array [
+                                                            "
+    font-size: 1.2em!important;
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+",
+                                                          ],
+                                                        },
+                                                        "displayName": "BookParagraphWrapper",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-bxivhb",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                  >
+                                                    <p
+                                                      className="sc-bxivhb bYlnnj"
+                                                    >
+                                                      comedy
+                                                    </p>
+                                                  </StyledComponent>
+                                                </BookParagraphWrapper>
+                                                <BookParagraphWrapper>
+                                                  <StyledComponent
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-bxivhb",
+                                                          "isStatic": true,
+                                                          "lastClassName": "bYlnnj",
+                                                          "rules": Array [
+                                                            "
+    font-size: 1.2em!important;
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+",
+                                                          ],
+                                                        },
+                                                        "displayName": "BookParagraphWrapper",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-bxivhb",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                  >
+                                                    <p
+                                                      className="sc-bxivhb bYlnnj"
+                                                    >
+                                                      1
+                                                       euro
+                                                    </p>
+                                                  </StyledComponent>
+                                                </BookParagraphWrapper>
+                                              </div>
+                                            </CardBody>
+                                          </ForwardRef(Bootstrap(CardBody))>
+                                          <Styled(Component)>
+                                            <StyledComponent
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "Append": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "defaultProps": undefined,
+                                                    "propTypes": undefined,
+                                                    "render": [Function],
+                                                  },
+                                                  "Checkbox": [Function],
+                                                  "Prepend": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "defaultProps": undefined,
+                                                    "propTypes": undefined,
+                                                    "render": [Function],
+                                                  },
+                                                  "Radio": [Function],
+                                                  "Text": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "defaultProps": undefined,
+                                                    "propTypes": undefined,
+                                                    "render": [Function],
+                                                  },
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-ifAKCX",
+                                                    "isStatic": true,
+                                                    "lastClassName": "hDwPNV",
+                                                    "rules": Array [
+                                                      "
+    justify-content: space-around
+",
+                                                    ],
+                                                  },
+                                                  "defaultProps": undefined,
+                                                  "displayName": "Styled(Component)",
+                                                  "foldedComponentIds": Array [],
+                                                  "propTypes": undefined,
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-ifAKCX",
+                                                  "target": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "Append": Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "defaultProps": undefined,
+                                                      "propTypes": undefined,
+                                                      "render": [Function],
+                                                    },
+                                                    "Checkbox": [Function],
+                                                    "Prepend": Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "defaultProps": undefined,
+                                                      "propTypes": undefined,
+                                                      "render": [Function],
+                                                    },
+                                                    "Radio": [Function],
+                                                    "Text": Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "defaultProps": undefined,
+                                                      "propTypes": undefined,
+                                                      "render": [Function],
+                                                    },
+                                                    "defaultProps": undefined,
+                                                    "propTypes": undefined,
+                                                    "render": [Function],
+                                                  },
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
+                                                }
+                                              }
+                                              forwardedRef={null}
+                                            >
+                                              <ForwardRef(Bootstrap(InputGroup))
+                                                className="sc-ifAKCX hDwPNV"
+                                              >
+                                                <InputGroup
+                                                  as="div"
+                                                  bsPrefix="input-group"
+                                                  className="sc-ifAKCX hDwPNV"
+                                                >
+                                                  <div
+                                                    className="sc-ifAKCX hDwPNV input-group"
+                                                  >
+                                                    <LinkButton
+                                                      path="/books/edit/1"
+                                                      title="Edit"
+                                                      width="80"
+                                                    >
+                                                      <Link
+                                                        replace={false}
+                                                        to="/books/edit/1"
+                                                      >
+                                                        <a
+                                                          href="/books/edit/1"
+                                                          onClick={[Function]}
+                                                        >
+                                                          <Styled(Component)
+                                                            type="button"
+                                                            variant="primary"
+                                                            width="80"
+                                                          >
+                                                            <StyledComponent
+                                                              forwardedComponent={
+                                                                Object {
+                                                                  "$$typeof": Symbol(react.forward_ref),
+                                                                  "attrs": Array [],
+                                                                  "componentStyle": ComponentStyle {
+                                                                    "componentId": "sc-gzVnrw",
+                                                                    "isStatic": false,
+                                                                    "lastClassName": "eRgJow",
+                                                                    "rules": Array [
+                                                                      "
+    margin-left: ",
+                                                                      [Function],
+                                                                      "px;
+    margin-bottom: ",
+                                                                      [Function],
+                                                                      "px;
+    width: ",
+                                                                      [Function],
+                                                                      "px;
+",
+                                                                    ],
+                                                                  },
+                                                                  "defaultProps": undefined,
+                                                                  "displayName": "Styled(Component)",
+                                                                  "foldedComponentIds": Array [],
+                                                                  "propTypes": undefined,
+                                                                  "render": [Function],
+                                                                  "styledComponentId": "sc-gzVnrw",
+                                                                  "target": Object {
+                                                                    "$$typeof": Symbol(react.forward_ref),
+                                                                    "defaultProps": undefined,
+                                                                    "propTypes": undefined,
+                                                                    "render": [Function],
+                                                                  },
+                                                                  "toString": [Function],
+                                                                  "warnTooManyClasses": [Function],
+                                                                  "withComponent": [Function],
+                                                                }
+                                                              }
+                                                              forwardedRef={null}
+                                                              type="button"
+                                                              variant="primary"
+                                                              width="80"
+                                                            >
+                                                              <ForwardRef(Bootstrap(Button))
+                                                                className="sc-gzVnrw eRgJow"
+                                                                type="button"
+                                                                variant="primary"
+                                                                width="80"
+                                                              >
+                                                                <Button
+                                                                  active={false}
+                                                                  bsPrefix="btn"
+                                                                  className="sc-gzVnrw eRgJow"
+                                                                  disabled={false}
+                                                                  innerRef={null}
+                                                                  type="button"
+                                                                  variant="primary"
+                                                                  width="80"
+                                                                >
+                                                                  <button
+                                                                    className="sc-gzVnrw eRgJow btn btn-primary"
+                                                                    disabled={false}
+                                                                    type="button"
+                                                                    width="80"
+                                                                  >
+                                                                    Edit
+                                                                  </button>
+                                                                </Button>
+                                                              </ForwardRef(Bootstrap(Button))>
+                                                            </StyledComponent>
+                                                          </Styled(Component)>
+                                                        </a>
+                                                      </Link>
+                                                    </LinkButton>
+                                                    <LinkButton
+                                                      path="/books/delete/1"
+                                                      title="Delete"
+                                                      width="80"
+                                                    >
+                                                      <Link
+                                                        replace={false}
+                                                        to="/books/delete/1"
+                                                      >
+                                                        <a
+                                                          href="/books/delete/1"
+                                                          onClick={[Function]}
+                                                        >
+                                                          <Styled(Component)
+                                                            type="button"
+                                                            variant="primary"
+                                                            width="80"
+                                                          >
+                                                            <StyledComponent
+                                                              forwardedComponent={
+                                                                Object {
+                                                                  "$$typeof": Symbol(react.forward_ref),
+                                                                  "attrs": Array [],
+                                                                  "componentStyle": ComponentStyle {
+                                                                    "componentId": "sc-gzVnrw",
+                                                                    "isStatic": false,
+                                                                    "lastClassName": "eRgJow",
+                                                                    "rules": Array [
+                                                                      "
+    margin-left: ",
+                                                                      [Function],
+                                                                      "px;
+    margin-bottom: ",
+                                                                      [Function],
+                                                                      "px;
+    width: ",
+                                                                      [Function],
+                                                                      "px;
+",
+                                                                    ],
+                                                                  },
+                                                                  "defaultProps": undefined,
+                                                                  "displayName": "Styled(Component)",
+                                                                  "foldedComponentIds": Array [],
+                                                                  "propTypes": undefined,
+                                                                  "render": [Function],
+                                                                  "styledComponentId": "sc-gzVnrw",
+                                                                  "target": Object {
+                                                                    "$$typeof": Symbol(react.forward_ref),
+                                                                    "defaultProps": undefined,
+                                                                    "propTypes": undefined,
+                                                                    "render": [Function],
+                                                                  },
+                                                                  "toString": [Function],
+                                                                  "warnTooManyClasses": [Function],
+                                                                  "withComponent": [Function],
+                                                                }
+                                                              }
+                                                              forwardedRef={null}
+                                                              type="button"
+                                                              variant="primary"
+                                                              width="80"
+                                                            >
+                                                              <ForwardRef(Bootstrap(Button))
+                                                                className="sc-gzVnrw eRgJow"
+                                                                type="button"
+                                                                variant="primary"
+                                                                width="80"
+                                                              >
+                                                                <Button
+                                                                  active={false}
+                                                                  bsPrefix="btn"
+                                                                  className="sc-gzVnrw eRgJow"
+                                                                  disabled={false}
+                                                                  innerRef={null}
+                                                                  type="button"
+                                                                  variant="primary"
+                                                                  width="80"
+                                                                >
+                                                                  <button
+                                                                    className="sc-gzVnrw eRgJow btn btn-primary"
+                                                                    disabled={false}
+                                                                    type="button"
+                                                                    width="80"
+                                                                  >
+                                                                    Delete
+                                                                  </button>
+                                                                </Button>
+                                                              </ForwardRef(Bootstrap(Button))>
+                                                            </StyledComponent>
+                                                          </Styled(Component)>
+                                                        </a>
+                                                      </Link>
+                                                    </LinkButton>
+                                                  </div>
+                                                </InputGroup>
+                                              </ForwardRef(Bootstrap(InputGroup))>
+                                            </StyledComponent>
+                                          </Styled(Component)>
+                                        </div>
+                                      </Card>
+                                    </ForwardRef(Bootstrap(Card))>
+                                  </StyledComponent>
+                                </CardWrapper>
+                              </div>
+                            </Col>
+                          </ForwardRef(Bootstrap(Col))>
+                        </BookCard>
+                      </div>
+                    </Row>
+                  </ForwardRef(Bootstrap(Row))>
+                </div>
+              </Container>
+            </ForwardRef(Bootstrap(Container))>
+          </BookContainer>
+        </Connect(BookContainer)>
+      </BookList>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

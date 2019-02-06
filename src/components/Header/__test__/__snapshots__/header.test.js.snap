@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HEADER COMPONENT snapshot correctly 1`] = `
+<ContainerWrapper>
+  <ForwardRef(Bootstrap(Row))>
+    <ForwardRef(Bootstrap(Col))
+      md={4}
+      xs={4}
+    >
+      <Logo />
+    </ForwardRef(Bootstrap(Col))>
+    <ForwardRef(Bootstrap(Col))>
+      <Menu />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(Row))>
+</ContainerWrapper>
+`;

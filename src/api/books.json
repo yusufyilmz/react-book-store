@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "book 1",
+        "price" : 50,
+        "genreId" :  1
+    },
+    {
+        "id": 2,
+        "name": "book 2",
+        "price" : 150,
+        "genreId" :  2
+    },
+    {
+        "id": 3,
+        "name": "book 2",
+        "price" : 150,
+        "genreId" :  2
+    },
+    {
+        "id": 4,
+        "name": "book 2",
+        "price" : 150,
+        "genreId" :  2
+    },
+    {
+        "id": 5,
+        "name": "book 2",
+        "price" : 150,
+        "genreId" :  3
+    }
+]

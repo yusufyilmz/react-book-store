@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BOOKCARD COMPONENT snapchat correctly 1`] = `
+<ForwardRef(Bootstrap(Col))
+  md={4}
+>
+  <CardWrapper>
+    <Styled(Component)>
+      book 1
+    </Styled(Component)>
+    <ForwardRef(Bootstrap(CardBody))>
+      <BookParagraphWrapper>
+        comedy
+      </BookParagraphWrapper>
+      <BookParagraphWrapper>
+        1
+         euro
+      </BookParagraphWrapper>
+    </ForwardRef(Bootstrap(CardBody))>
+    <Styled(Component)>
+      <LinkButton
+        path="/books/edit/1"
+        title="Edit"
+        width="80"
+      />
+      <LinkButton
+        path="/books/delete/1"
+        title="Delete"
+        width="80"
+      />
+    </Styled(Component)>
+  </CardWrapper>
+</ForwardRef(Bootstrap(Col))>
+`;
