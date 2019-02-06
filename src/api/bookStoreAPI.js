@@ -49,14 +49,21 @@ const createBook = (request) => {
     var book = new Book(body.book);
     console.log(body)
     book.genre = genreList.getGenre(body.book.genre);
-    bookList.addBook(book);
-    return {
-      status: 'OK',
-      data: bookList
+
+
+    if(bookList.addBook(book)) {
+      return {
+        status: 'OK',
+        data: bookList
+      }
+    }
+    else{
+      return {
+        status: 'ERROR',
+        message: 'This book already exist'
+      }
     }
   } catch (e) {
-    console.log(e)
-
     return {
       status: 'ERROR',
       data: e.message
@@ -132,11 +139,19 @@ const createGenre = (request) => {
     var body = JSON.parse(request.requestBody)
     console.log(body)
     var genre = new Genre(body.genre);
-    genreList.addGenre(genre);
-    return {
-      status: 'OK',
-      data: genreList
+    if(genreList.addGenre(genre)) {
+      return {
+        status: 'OK',
+        data: genreList
+      }
     }
+    else{
+      return {
+        status: 'ERROR',
+        message: 'This genre already exist'
+      }
+    }
+    
   } catch (e) {
     console.log(e)
 
@@ -188,8 +203,6 @@ const deleteGenre = (request) => {
 }
 
 
-
-
 initializeBookStore();
 
 
@@ -217,7 +230,6 @@ const requestBookEditHandler = (request, generator) => {
 const requestBookDeleteHandler = (request, generator) => {
   return [200, { 'Content-Type': 'application/json' }, JSON.stringify(deleteBook(request))];
 }
-
 
 
 const requestGenresHandler = (request, generator) => {

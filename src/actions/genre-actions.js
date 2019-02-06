@@ -55,7 +55,7 @@ const fetchResponse = (response, fetch) => async (dispatch, getState) => {
     if (response.status === 200 && response.data.status === 'OK') {
         return dispatch(fetch(response.data.data))
     }
-    dispatch(errorOccured({ status: 'ERROR', message: SERVER_ERROR }))
+    dispatch(errorOccured({ status: 'ERROR', message: response.data.message }))
 }
 
 

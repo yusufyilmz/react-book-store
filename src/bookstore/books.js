@@ -14,7 +14,7 @@ export class Book {
     getId() {
         return this.id
     }
-    
+
     getGenre() {
         return this.genre
     }
@@ -34,27 +34,30 @@ export class BookList {
     }
 
     addBook(book) {
-        if(this.books.length > 0) {
-            book.id= this.books[this.books.length - 1].id + 1;
+        if (!this.books.find(x => x.name === book.name)) {
+
+            if (this.books.length > 0) {
+                book.id = this.books[this.books.length - 1].id + 1;
+            }
+            else {
+                book.id = 0
+            }
+            this.books.push(book);
+            return book;
         }
-        else{
-            book.id= 0
-        }
-        this.books.push(book);
     }
 
-    editBook (book) {
+    editBook(book) {
 
         for (var i in this.books) {
             if (this.books[i].getId() === book.id) {
                 this.books[i].update(book)
             }
-          }
+        }
     }
 
     deleteBook(id) {
         var book = this.books.find(book => book.id == id)
-
         var index = this.books.indexOf(book)
         if (index !== -1) this.books.splice(index, 1);
     }

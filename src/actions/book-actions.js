@@ -54,7 +54,7 @@ const fetchResponse = (response, fetch) => async (dispatch, getState) => {
         return dispatch(fetch(response.data.data))
     }
 
-    dispatch(errorOccured({ status: 'ERROR', message: SERVER_ERROR }))
+    dispatch(errorOccured({ status: 'ERROR', message: response.data.message }))
 }
 
 export const fetchBooks = () => async (dispatch, getState) => {
